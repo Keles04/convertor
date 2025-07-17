@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Конвертер валют (API)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Конвертер валют</h1>
+  <div class="converter">
+    <input type="number" id="amount" placeholder="Сумма" />
+    <select id="currency">
+      <option value="USD">Доллары (USD)</option>
+      <option value="EUR">Евро (EUR)</option>
+    </select>
+    <button onclick="convert()">Конвертировать</button>
+    <div id="result">Результат: 0 ₸</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
